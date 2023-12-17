@@ -9,8 +9,8 @@ def pickOne():
     return pick
 
 def setPicked(pick):
-    os.system((f"feh --bg-scale {path}/{pick}"))
-    
+    os.system((f"feh --bg-scale {path}/{pick}"))            #requirements
+                                                    #Feh, python installed I guess usualy works xD
 
 pick=pickOne()
 
