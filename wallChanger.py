@@ -1,6 +1,6 @@
 import random
 import os
-
+#path to your walls dir
 path = "/home/wastcott/Pictures/Walls"
 
 def pickOne():
